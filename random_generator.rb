@@ -5,7 +5,7 @@ def generate_code(number)
     Array.new(number) { charset.sample }.join
   end
   puts"How much digits?"
-  basamak = gets.to_i
+  digits = gets.to_i
   puts "How much times?"
   times = gets.to_i
   timesEnd = 1
