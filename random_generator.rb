@@ -11,7 +11,7 @@ def generate_code(number)
   timesEnd = 1
 
   while times >= timesEnd
-    puts generate_code(basamak)
+    puts generate_code(digits)
     timesEnd +=1
   end
   
